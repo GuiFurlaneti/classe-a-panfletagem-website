@@ -1,0 +1,61 @@
+.partners-section {
+  text-align: center;
+  padding: 120px 20px 100px 20px;
+  background-color: #e6e6e6;
+}
+
+.partners-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.partners-section p {
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Carrossel com animação infinita real */
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: fit-content;
+}
+
+.partner-logo {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.partner-logo img {
+  max-height: 180px;
+  max-width: 320px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

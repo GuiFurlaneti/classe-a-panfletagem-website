@@ -1,0 +1,81 @@
+/* ==================== */
+/* RESET DE ESTILOS     */
+/* ==================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* ==================== */
+/* ELEMENTOS GERAIS     */
+/* ==================== */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==================== */
+/* CONTAINERS           */
+/* ==================== */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ==================== */
+/* TIPOGRAFIA           */
+/* ==================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #111;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ==================== */
+/* BOTÕES PADRÕES       */
+/* ==================== */
+
+.btn {
+  background-color: #f53d3d;
+  color: #fff;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d93333;
+}

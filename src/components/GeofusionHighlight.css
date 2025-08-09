@@ -1,0 +1,73 @@
+.geofusion-section {
+  background-color: #f2f2f2;
+  padding: 120px 30px;
+}
+
+.geofusion-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.geofusion-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.geofusion-left h2 {
+  font-size: 2.5rem;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.geofusion-left p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.geofusion-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.geofusion-right h3 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.plus-icon {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.features-list strong {
+  font-weight: 650;
+  color: #000000;
+  font-size: 1.15rem;
+}
+
+.features-list p {
+  margin: 5px 0 0 0;
+  font-size: 0.95rem;
+  color: #000000;
+}

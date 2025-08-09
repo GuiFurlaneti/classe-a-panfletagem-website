@@ -1,0 +1,90 @@
+.navbar {
+  background-color: #0000003b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  color: #fff;
+  padding: 1.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo img {
+  width: 50px;
+  border-radius: 8px;
+}
+
+.navbar-logo img:hover {
+  opacity: .8;
+  transition: all 0.3s ease;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar-links li a.active {
+  background-color: #f53d3d;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.navbar-social a {
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.navbar-social .bi-instagram:hover {
+  color: #E1306C;
+  transition: all 0.3s ease;
+}
+
+.navbar-social .bi-facebook:hover {
+  color: #1877F2;
+  transition: all 0.3s ease;
+}
+
+.navbar-social .bi-whatsapp:hover {
+  color: #25D366;
+  transition: all 0.3s ease;
+}
+
+.navbar-social .bi-linkedin:hover {
+  color: #0077B5;
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar.scrolled .navbar-links li a,
+.navbar.scrolled .navbar-social a {
+  color: #000;
+}
+
+.navbar.scrolled .navbar-links li a.active {
+  background-color: #f53d3d;
+  color: #fff;
+}
