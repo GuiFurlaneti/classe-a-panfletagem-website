@@ -21,7 +21,7 @@
 }
 
 .hero-overlay {
-  background-color: rgba(28, 45, 56, 0.751);
+  background-color: rgba(28, 45, 56, 0.919);
   width: 100%;
   height: 100%;
   padding: 0 2rem;
@@ -46,7 +46,7 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
 }
@@ -62,7 +62,12 @@
   line-height: 1.6;
 }
 
-.cta-btn {
+.bottons-cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-btn-1 {
   background-color: #f53d3d;
   color: #fff;
   padding: 0.8rem 1.6rem;
@@ -72,9 +77,25 @@
   transition: background-color 0.3s ease;
 }
 
-.cta-btn:hover {
+.cta-btn-1:hover {
   background-color: #d93333;
 }
+
+.cta-btn-2 {
+  background-color: #47474762;
+  border: #fff 2px solid;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn-2:hover {
+  background-color: #4747478d;
+}
+
 
 /* Classe específica para o avião flutuante */
 .hero-phone {
@@ -88,7 +109,7 @@
 .hero-phone img {
   max-width: none;
   padding-top: 2.5rem;
-  width: 580px; /* ou qualquer tamanho desejado */
+  width: 550px; /* ou qualquer tamanho desejado */
 }
 
 /* Ajustes responsivos para telas pequenas (smartphones) */
@@ -109,4 +130,30 @@
     font-size: 0.9rem; /* Ajusta o tamanho do botão */
     padding: 0.6rem 1.2rem; /* Ajusta o padding do botão */
   }
+}
+
+.metrics {
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4rem;
+  text-align: center;
+}
+
+.metrics div {
+  color: white;
+}
+
+.metrics h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f53d3d;
+}
+
+.metrics p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.3;
 }
